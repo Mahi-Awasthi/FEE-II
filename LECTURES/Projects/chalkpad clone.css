@@ -1,0 +1,41 @@
+body{
+    background-image: url("cu\ chalkpad.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.logo img{
+    width: 180px;
+    height:100px ;
+    padding-left:20px;
+}
+.main{
+    background-color: white;
+    margin-left:800px;
+    margin-right:200px;
+    margin-top:80px;
+    padding-left:20px;
+}
+.form{
+    font-size: 15px;
+    border: 2px rgb(181, 180, 180);
+}
+.form button{
+    background-color: rgb(228, 24, 24);
+    border-style: none;
+    padding-left:85px;
+    padding-right:85px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin:6px 2px;
+    cursor: pointer;
+    color: white;
+}
+.icon img{
+    width: 25px;
+    height:25px ;
+    padding:5px;
+    padding-left:45px;}
+.footer img{
+    width:70px;
+    height:25px ;
+}
