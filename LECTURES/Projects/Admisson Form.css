@@ -1,0 +1,35 @@
+body{
+    border-top: 10px solid red ;
+    border-bottom: 10px solid red ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo img{
+    margin-top: 15px;
+}
+.table th,td{
+    border: 1px solid;
+    padding: 10px;
+}
+.head{
+    color: red;
+    text-align: center;
+}
+.dec{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#ep{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+header{
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #e9ecef;
+    margin-bottom: 15px;
+}
+form{
+    background-color: #e9ecef;
+    padding: 5px;
+}
