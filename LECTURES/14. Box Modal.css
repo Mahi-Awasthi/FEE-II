@@ -1,0 +1,13 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    margin: 25px;
+    border:5px solid black;
+}
+div{
+  border: 1px solid black;  
+  margin:20px;
+  padding:20px;
+}
