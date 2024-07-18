@@ -3,13 +3,37 @@ h1{
 }
 #container{
     background-color: rgb(194, 199, 199);
-    height:200px;
-    width:200px;
+    height:300px;
+    width:300px;
     border:1px solid rgb(107, 106, 106);
     display: flex;
-    flex-direction: row;
+     flex-direction:row;
+     justify-content:flex-end;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */ 
+    align-items: end;
 }
 .items{
-    height: 30px;
-    width:30px;
+    height:50px;
+    width:50px;
+    text-align: center;
+}
+
+#container2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 18px 270px;
+    margin-right: 15px;
+    justify-content: space-between;
+}
+.item{
+    height:20px;
+    width:auto;
+    text-align: center;
+    padding: 8px;
+    border-radius: 8px;
+}
+.item a{
+    text-decoration: none;
 }
