@@ -397,3 +397,82 @@ color: #a2cb1d;
     margin-left:630px;
     color: white;
 }
+/* __________________________________________________________
+__________________________________________________________ */
+@media only screen and (max-width: 600px) {
+#container{
+    margin: 0%;
+    top:0;
+    width:100%;
+}
+body{
+    font-family:Open Sans;
+    position: relative;
+    height:400vh;
+    background-image: url("https://assets.website-files.com/5badda2935e11303a89a461e/5baddd4835e113c6299a48f5_li-tzuni-507346-unsplash.jpg");
+    background-position: 50% 94%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#mail2{
+    display: none;
+}
+.top p{
+    font-size:45px;
+    font-family:Open Sans;
+}
+.top{
+    padding: 0;
+    margin: 0; 
+}
+.headicon{
+    margin-left:250px;
+    padding-top:42px;
+}
+.headicon a img{
+    width:70px;
+    height:70px;
+}
+.nav-link{
+    font-size:45px;
+    font-family:Open Sans;
+}
+.logo{
+    font-size:70px;
+    font-family:Open Sans;
+    margin-top:-25px;
+}
+.navbar{
+    padding:70px;
+   padding-left:0%;
+}
+/* _______________________________________________________ */
+.bookone{
+    margin-top:1600px;
+    text-align: justify;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+.partone{
+    height:900px;
+    width:1000px;
+    margin-left:100px;
+    border-radius: 32px;
+    margin-top:900px;
+}
+.feat img{
+    height:700px;
+    width:700px;
+}
+.ico1{
+    margin-top: -140px;
+    margin-left:100px;
+}
+#high1{
+    margin-top:0px;
+    font-size:70px;
+    text-align: center;
+}
+
+  }
