@@ -1,0 +1,44 @@
+
+#header{
+    background-color: rgb(71, 43, 43);
+    color: #fff;
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    margin-left: 10px;
+}
+.container{
+    width: 80vw;
+    margin: 20px auto; 
+    display: grid;
+    grid-auto-rows: 200px;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+}
+.content{
+    background-color: rgb(219, 198, 198);;
+    border-radius: 12px;
+    padding:8px;
+}
+.content h2{
+    color:blue;
+}
+#pic img{
+    height:180px;
+    width: 200px;
+    padding: 10px;
+}
+#pic:hover{
+        opacity: 0.5;
+        filter: grayscale(80%);
+}
+#pic i{
+        position: absolute;
+        font-size: 3.4rem;
+        top: 40%;
+        left: 45%;
+        transform: scale(0);
+        transition: 300ms;
+        transition-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);;
+    }
