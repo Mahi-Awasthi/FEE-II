@@ -1,0 +1,421 @@
+/* Font Faces */
+@font-face {
+    font-family: 'Absolute Beauty';
+    src: url('Absolute-Beauty-Script-Regular.otf') format('opentype');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LibreBaskerville-Regular';
+    src: url('LibreBaskerville-Regular.ttf');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'theseasons';
+    src: url('Fontspring-DEMO-theseasons-reg.otf') format('opentype');
+    font-style: normal;
+}
+
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("v2_Lip-_-Cheek-Blush-Tint_desktop_PLP_banner_0724.webp");
+    background-position: 30% 94%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 97vh;
+}
+
+.navbar-brand {
+    font-family: 'theseasons';
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-family: 'LibreBaskerville-Regular';
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Book Sections */
+.bookone {
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bookone button {
+    background-color: #ffffff;
+    border: 1px solid white;
+    border-radius: 16px;
+    padding: 19px;
+    font-size: 12px;
+}
+
+.bookone h1 {
+    text-align: center;
+    border-radius: 32px;
+}
+
+.feat {
+    border: none;
+    outline: none;
+    padding: 10px 35px 10px 10px;
+    width: 500px;
+    height: 130px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 22px;
+}
+
+#high1 {
+    margin-top: -140px;
+    margin-left: 235px;
+    font-family: 'theseasons';
+    font-size: 32px;
+}
+
+#high2 {
+    margin-top: -140px;
+    margin-left: 135px;
+    font-family: 'theseasons';
+    font-size: 32px;
+}
+
+.partone {
+    background-color: #d0b4b5;
+    margin-left: 30px;
+    margin-top: 600px;
+    border-radius: 17px;
+}
+
+.parttwo {
+    background-color: #d0b4b5;
+    margin-top: 600px;
+    border-radius: 17px;
+}
+
+.ico1 img {
+    width: 190px;
+    height: 210px;
+    border-radius: 70px;
+    margin-top: -100px;
+    margin-left: 15px;
+}
+
+.ico2 img {
+    width: 190px;
+    height: 220px;
+    border-radius: 70px;
+    margin-top: -110px;
+    margin-left: 320px;
+}
+
+#bu1, #bu2 {
+    border-radius: 20px;
+    padding: 6px;
+}
+
+#bu1 {
+    margin-left: 235px;
+}
+
+#bu2 {
+    margin-left: 135px;
+}
+
+#head {
+    margin: 20px;
+    font-size: 32px;
+    font-family: 'theseasons';
+}
+
+/* Book Two */
+.booktwo {
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.p1 {
+    height: 270px;
+    width: 270px;
+    border: transparent;
+    border-radius: 20px;
+    text-align: center;
+    transition: transform .5s;
+    background: #fff;
+    box-shadow: 0 8px 20px -4px rgba(0, 0, 0, 0.15);
+}
+
+.p1:hover {
+    transform: scale(1.1);
+}
+
+.im img {
+    width: 190px;
+    height: 190px;
+    border-radius: 6px;
+}
+
+#price {
+    margin-left: 16px;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    width: 100px;
+    border: none;
+}
+
+/* Book Three */
+.bookthree {
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.p2 {
+    height: 250px;
+    width: 270px;
+    border: transparent;
+    border-radius: 20px;
+    text-align: center;
+    transition: transform .5s;
+    background: #fff;
+    box-shadow: 0 8px 20px -4px rgba(0, 0, 0, 0.15);
+}
+
+.p2:hover {
+    transform: scale(1.1);
+}
+
+.im img {
+    width: 190px;
+    height: 190px;
+}
+
+#price {
+    margin-left: 16px;
+    background-color: #000000;
+    border-radius: 20px;
+    color: white;
+    width: 100px;
+    border: none;
+}
+
+/* Book Four */
+.bookfour {
+    position: relative;
+    height: 60vh;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("reindeer.jpg");
+    background-position: 30% 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(1px);
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text {
+    padding-top: 52px;
+}
+
+.text img {
+    background-color: #a2cb1d;
+    padding: 14px;
+    border-radius: 30px;
+}
+
+.text {
+    text-align: center;
+    color: white;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("banner1.webp");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#price1 {
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.text h2 {
+    font-weight: bolder;
+    font-family: 'theseasons';
+}
+
+/* Book Five */
+.bookfive {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#mfw {
+    color: #d0b4b5;
+}
+
+/* Book Six */
+.booksix {
+    text-align: left;
+    margin-left: 62px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.booksix img {
+    height: 390px;
+    width: 550px;
+    border-radius: 16px;
+    margin-top: -280px;
+    margin-left: 600px;
+}
+
+.booksix h5 {
+    color: rgb(210, 209, 209);
+}
+
+#bu3 {
+    background-color: #d76e6b;
+    padding: 15px;
+    width: 120px;
+    border: none;
+    border-radius: 22px;
+    color: white;
+}
+
+/* Book Seven */
+#bookseven {
+    height: 100px;
+    width: 1100px;
+    margin-left: 50px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    padding: 32px;
+    box-shadow: 0 8px 20px -4px rgba(0, 0, 0, 0.15);
+}
+
+#tele {
+    background-color: #d0b4b5;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    padding: 16px;
+    margin-top: 12px;
+}
+
+#subscribe {
+    padding-left: 20px;
+}
+
+#email {
+    height: 50px;
+    width: 300px;
+    padding-left: 20px;
+    border-radius: 20px;
+    border: 2px solid #d0b4b5;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+#subsc {
+    background-color: #d0b4b5;
+    color: white;
+    height: 35px;
+    width: 120px;
+    border-radius: 20px;
+    border: 1px white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+/* Book Eight */
+.bookeight {
+    text-align: center;
+}
+
+/* Book Nine */
+.booknine {
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 20px;
+}
+
+.im2:hover {
+    transform: scale(1.05);
+}
+
+.im2 img {
+    width: 190px;
+    height: 210px;
+    transition: transform .5s;
+    border-radius: 12px;
+}
+
+#smp {
+    background-color: #d0b4b5;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+/* Footer */
+.footer {
+    background-color: #f8f1f4;
+    color: rgb(7, 7, 7);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.footer .foologo {
+    font-family: 'theseasons';
+}
+.footer a{
+    text-decoration: none;
+    color: #000;
+}
+.footer .fooicon img {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+}
+.foonav a{
+    padding:5px;
+}
+.footer2 {
+    background-color: #f8f1f4;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+}
+
+.footer2 hr {
+    border: 0;
+    height: 1px;
+    background: #151515;
+}
+#l{
+    font-size:22px;
+}

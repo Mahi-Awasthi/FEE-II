@@ -1,0 +1,2 @@
+js is a single-threaded, synchronous, interpreted, scripting language.
+Read evaluate print loop 

@@ -1,0 +1,485 @@
+@font-face {
+    font-family: 'Absolute Beauty';
+    src: url('Absolute-Beauty-Script-Regular.otf') format('opentype');
+    font-style: normal;
+}
+@font-face {
+    font-family:'LibreBaskerville-Regular';
+    src: url('LibreBaskerville-Regular.ttf');
+    font-style: normal;
+  }
+@font-face {
+    font-family:'theseasons';
+    src: url('Fontspring-DEMO-theseasons-reg.otf') format('opentype');
+    font-style: normal;
+}
+body{
+    font-family:Open Sans;
+    margin:0;
+    padding:0;
+}
+body{
+    position: relative;
+    height: 97vh;
+    background-image: url("v2_Lip-_-Cheek-Blush-Tint_desktop_PLP_banner_0724.webp");
+    background-position:30% 94%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar-brand{
+    font-family:'theseasons';
+    font-size:30px;
+    font-weight: bold;
+}
+.nav-link{
+    font-family:'LibreBaskerville-Regular';
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.bookone button{
+    background-color: #ffffff;
+    border: 1px solid white;
+    border-radius: 16px;
+    padding:19px;
+    margin-top:-340px;
+    margin-left:70px;
+}
+.bookone{
+    text-align: justify;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    }
+.bookone h1{
+    text-align: center;
+    border-radius: 32px;
+    }
+    .feat{
+        border: none;
+        outline: none;
+        padding: 10px 35px 10px 10px;
+        width:500px;
+         height:130px;
+         font-family:Open Sans;
+         color: #fff;
+        font-size:22px;
+
+    }
+
+#high1{
+    margin-top: -140px;
+    margin-left:235px;
+    font-family:'theseasons';
+    font-size:32px;
+}
+#high2{
+    margin-top: -140px;
+    margin-left:135px;
+    font-family:'theseasons';
+    font-size:32px;
+}
+.partone{
+    background-color: #d0b4b5;
+    margin-left:30px;
+    margin-top:600px ;
+    border-radius:17px;
+}
+.parttwo{
+    background-color: #d0b4b5;
+    margin-top:600px ;
+    border-radius:17px;
+
+}
+.ico1 img{
+    width:190px;
+    height:210px;
+    border-radius:70px;
+    margin-top: -100px;
+    margin-left:15px;
+}
+.ico2 img{
+    width:190px;
+    height:220px;
+    border-radius:70px;
+    margin-top: -110px;
+    margin-left:320px;
+}
+.bookone button{
+    border-radius:20px;
+    padding: 6px;  
+    font-size: 12px;
+}
+#bu1{
+    margin-left:235px;
+}
+#bu2{
+    margin-left:135px;
+}
+#head{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size:32px;
+    font-family:'theseasons';
+}
+/* ______________________________________________________ */
+
+.booktwo{
+    text-align: justify;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-left:20px;
+    margin-right:20px;
+}
+.p1{
+    height:270px;
+    width:270px;
+    border:transparent;
+    border-radius: 20px;
+    text-align: center;
+    transition: transform .5s ;
+    transition-delay:1ms;
+    background: #fff;
+    box-shadow: 0 8px 20px -4px rgba(0, 0, 0, 0.15);
+}
+.cap{
+    font-family: 'Absolute Beauty';
+    font-size:44px;
+}
+.p1:hover {
+    transform: scale(1.1); 
+  }
+.im img{
+    width:190px;
+    height:190px;
+    border-radius: 6px;
+}
+#price{
+    margin-left:16px;
+    background-color:black ;
+    border-radius: 20px;
+    color:white;
+    width:100px;
+    border: none;
+}
+/* ______________________________________________________ */
+
+.bookthree{
+    text-align: justify;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-left:20px;
+    margin-right:20px;
+}
+.p2{
+    height:250px;
+    width:270px;
+    border:transparent;
+    border-radius: 20px;
+    text-align: center;
+    transition: transform .5s ;
+    transition-delay:1ms;
+    background: #fff;
+    box-shadow: 0 8px 20px -4px rgba(0, 0, 0, 0.15);
+
+}
+.p2:hover {
+    transform: scale(1.1); 
+  }
+.im img{
+    width:190px;
+    height:190px;
+}
+#price{
+    margin-left:16px;
+    background-color:#000000 ;
+    border-radius: 20px;
+    color:white;
+    width:100px;
+    border: none;
+}
+/* ______________________________________________________ */
+.bookfour{
+    position: relative;
+    height:60vh;
+    background-image:  linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("reindeer.jpg");
+    background-position: 30% 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(1px);
+    text-align: center;
+    color: white;
+    font-family:Open Sans;
+}
+.text{
+    padding-top:52px;
+}
+.text img{
+    background-color: #a2cb1d;
+    padding:14px;
+    border-radius:30px;
+}
+.text {
+    text-align: center;
+    color: white;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("banner1.webp");
+    background-size: cover;
+    background-position: center;
+    
+  /*  this is where the magic happens:  */
+    background-attachment: fixed;
+  }
+  #price1{
+    background-color: #fff;
+    border: none;
+    border-radius:5px;
+    padding:10px;
+  }
+  .text h2{
+    font-weight: bolder;
+    font-family:'theseasons';
+  }
+  
+/* ______________________________________________________ */
+.bookfive{
+    font-family: Open Sans;
+    text-align: center;
+}
+#mfw{
+color: #d0b4b5;
+}
+/* ______________________________________________________ */
+.booksix{
+    text-align: left;
+    margin-left:62px;
+    font-family: Open Sans;
+}
+.booksix img{
+    height:390px;
+    width:550px;
+    border-radius: 16px;
+    margin-top:-280px;
+    margin-left:600px;
+}
+.booksix h5{
+    color: rgb(210, 209, 209);
+}
+#bu3{
+    background-color: #d76e6b;
+    padding:15px;
+    width:120px;
+    border: none;
+    border-radius:22px;
+    color: white;
+}
+/* ______________________________________________________ */
+#bookseven{
+    height:100px;
+    width:1100px;
+    margin-left:50px;
+    background-color:#fff;
+    border-radius: 20px;
+    display: flex;
+    padding:32px;
+    box-shadow: 0 8px 20px -4px rgba(0, 0, 0, 0.15);
+
+}
+#hig{
+    color: #a2cb1d;
+}
+#tele{
+    background-color: #d0b4b5;
+    border-radius:30px;
+    width:30px;
+    height:30px;
+    padding:16px;
+    margin-top:12px;
+}
+#subscribe{
+    padding-left:20px;
+}
+#email{
+    height:50px;
+    width:300px;
+    padding-left: 20px;
+    border-radius: 20px;
+    border:2px solid #d0b4b5;
+    margin-left:180px;
+    margin-top: 20px;
+    height:35px;
+}
+#subsc{
+    background-color:#d0b4b5;
+    color:white;
+    height:35px;
+    width:120px;
+    border-radius: 20px;
+    border:1px white;
+    margin-left:20px;
+    margin-top:20px
+}
+/* ______________________________________________________ */
+.bookeight{
+    text-align: center;
+}
+/* ______________________________________________________ */
+.booknine{
+    text-align: justify;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    margin-left:20px;
+    margin-right:20px;
+}
+.im2:hover {
+    transform: scale(1.05); 
+  }
+.im2 img{
+    width:190px;
+    height:210px;
+    transition: transform .5s ;
+    transition-delay:1ms;
+    border-radius: 12px;
+}
+#smp{
+    background-color:#d0b4b5;
+    color:white;
+    height:40px;
+    width:140px;
+    border-radius: 20px;
+    border:1px white;
+    margin-left:560px;
+    margin-top:20px
+}
+/* ____________________________________________________________ */
+.footer{
+    background-color: #f8f1f4;
+    display: flex;
+    padding-top:55px;
+    padding-left:55px;
+    padding-right:55px;
+}
+.footer a{
+    text-decoration: none;
+    color: #000000;
+}
+.footlogo a{
+    font-family: 'Varela Round', sans-serif;
+}
+.foo-link{
+    text-align: center;
+    padding: 9px;
+}
+.foonav{
+    padding-left:250px;
+}
+#l{
+    font-family:'theseasons';
+    font-size:25px;
+    font-weight: bold;
+}
+.fooicon{
+    padding-left:260px; 
+}
+.footer2{
+    font-family: 'Varela Round', sans-serif;
+    background-color: #f8f1f4;
+    padding:12px;
+    color: #101010;
+}
+.bottom{
+    margin-left:40px;
+    margin-right:40px;
+}
+.left{
+    font-size: smaller;
+    font-family: 'Varela Round', sans-serif;
+}
+/* __________________________________________________________
+__________________________________________________________ */
+@media only screen and (max-width: 600px) {
+#container{
+    margin: 0%;
+    top:0;
+    width:100%;
+}
+body{
+    font-family:Open Sans;
+    position: relative;
+    height:400vh;
+    background-image: url("https://assets.website-files.com/5badda2935e11303a89a461e/5baddd4835e113c6299a48f5_li-tzuni-507346-unsplash.jpg");
+    background-position: 50% 94%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#mail2{
+    display: none;
+}
+.top p{
+    font-size:45px;
+    font-family:Open Sans;
+}
+.top{
+    padding: 0;
+    margin: 0; 
+}
+.headicon{
+    margin-left:250px;
+    padding-top:42px;
+}
+.headicon a img{
+    width:70px;
+    height:70px;
+}
+.nav-link{
+    font-size:45px;
+    font-family:Open Sans;
+}
+.logo{
+    font-size:70px;
+    font-family:Open Sans;
+    margin-top:-25px;
+}
+.navbar{
+    padding:70px;
+   padding-left:0%;
+}
+/* _______________________________________________________ */
+.bookone{
+    margin-top:1600px;
+    text-align: justify;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+.partone{
+    height:900px;
+    width:1000px;
+    margin-left:100px;
+    border-radius: 32px;
+    margin-top:900px;
+}
+.feat img{
+    height:700px;
+    width:700px;
+}
+.ico1{
+    margin-top: -140px;
+    margin-left:100px;
+}
+#high1{
+    margin-top:0px;
+    font-size:70px;
+    text-align: center;
+}
+
+  }
