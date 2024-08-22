@@ -329,10 +329,6 @@ color: #d0b4b5;
     display: flex;
     padding:32px;
     box-shadow: 0 8px 20px -4px rgba(0, 0, 0, 0.15);
-
-}
-#hig{
-    color: #a2cb1d;
 }
 #tele{
     background-color: #d0b4b5;
@@ -397,6 +393,31 @@ color: #d0b4b5;
     border:1px white;
     margin-left:560px;
     margin-top:20px
+}
+.booknine {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.p3 {
+  flex: 1 1 30%;
+  margin: 10px;
+  box-sizing: border-box;
+}
+.im2 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+@media (max-width: 768px) {
+  .p3 {
+    flex: 1 1 45%;
+  }
+}
+@media (max-width: 480px) {
+  .p3 {
+    flex: 1 1 100%;
+  }
 }
 /* ____________________________________________________________ */
 .footer{
