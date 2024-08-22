@@ -14,8 +14,6 @@
     src: url('Fontspring-DEMO-theseasons-reg.otf') format('opentype');
     font-style: normal;
 }
-
-/* General Styles */
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
