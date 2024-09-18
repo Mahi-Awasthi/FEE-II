@@ -37,6 +37,42 @@ let user1={
     user3: {
         name:"Awasthi",
         subject:"OS",
-    }
+    },
+    user4:{
+        user5: {
+        name:"Mehak",
+        subject:"CN",
+    }}
 };
-console.log(user1.user3.name)
+console.log(user1.user4.user5.name)
+
+// Object inside an array:
+let array=[
+    {
+    namee:'a',
+
+},
+{
+    namee:'b',
+subject:'FEE'
+},
+{
+    namee:'c',
+subject:'C'
+},
+]
+console.log(array[2].namee);
+
+//merge object: using same keys
+var obj1={name1:'a',age:20}
+var obj2={name1:'b',age:25}
+var obj3={...obj1,...obj2}
+console.log(obj3)
+
+//merge object using different keys
+var obj1={name1:'a',age:20}
+var obj2={name2:'b',age:25}
+var obj3={...obj1,...obj2}
+console.log(obj3)
+obj4=object.assign(obj1,obj2);
+console.log(obj4);
