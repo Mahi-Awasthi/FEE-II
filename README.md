@@ -1,2 +1,7 @@
-## FEE-II
-##### This repository contains all my lecture notes, homework assignments, projects, and additional resources from my FEE-II (Front End Engineering) course, which I completed in my third semester. All of this work utilizes technologies such as HTML, CSS, JavaScript, and React.
+- **Course**: FEE-II (Front End Engineering)
+- **Semester**: Third
+- **Contents**:
+  - Lecture notes
+  - Homework assignments
+  - Projects
+- **Technologies Used**: HTML, CSS, JavaScript, React
